@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="menu_item">
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">@dimen/dimen_64_dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="my_radio_button">
+        <item name="android:textSize">@dimen/dimen_16_dip</item>
+        <item name="android:textColor">#ff373737</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:padding">@dimen/dimen_5_dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:drawablePadding">@dimen/dimen_10_dip</item>
+    </style>
+
+</resources>

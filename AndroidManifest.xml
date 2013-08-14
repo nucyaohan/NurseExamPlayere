@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csic.player"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="12" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <application
+        android:icon="@drawable/nurse"
+        android:label="@string/app_name"
+        android:name=".MyApp"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name=".NurseExamPlayerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LoadingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VideoListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".SelectCourseActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name=".VideosActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name=".CheckPasswordActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name=".RegisterInfoActivity"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>

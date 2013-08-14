@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_44_dip"
+        android:background="@drawable/top_bg" >
+
+        <Button
+            android:id="@+id/main_left"
+            android:layout_width="@dimen/dimen_86_dip"
+            android:layout_height="@dimen/dimen_36_dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_left"
+            android:paddingLeft="@dimen/dimen_14_dip"
+            android:text="科目选择"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/dimen_13_dip" />
+
+        <TextView
+            android:id="@+id/top_title"
+            android:layout_width="@dimen/dimen_95_dip"
+            android:layout_height="@dimen/dimen_25_dip"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/video_name" />
+
+        <Button
+            android:id="@+id/main_right"
+            android:layout_width="@dimen/dimen_86_dip"
+            android:layout_height="@dimen/dimen_36_dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_right"
+            android:gravity="right|center"
+            android:paddingRight="@dimen/dimen_14_dip"
+            android:text="注册事项"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/dimen_13_dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="text_num_gray">#ff333333</color>
+    <color name="dialog_title_blue">#ff9cccf7</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="translucent">#ff000000</color>
+    <color name="black">#ff000000</color>
+    <color name="topic_bg">#ffeeeeee</color>
+    <color name="normal_color">#ff373737</color>
+    <color name="topic_count">#ffa8a8a8</color>
+    <color name="line_s">#ffdcdee2</color>
+    <color name="line_q">#fff9fafb</color>
+    <color name="exam_result">#ff389800</color>
+    <color name="exam_ready">#ff0668cb</color>
+    <color name="share_title">#ff0052a7</color>
+    <color name="share_word">#ff8e8e8e</color>
+    <color name="mark_photo_count">#ff00ffff</color>
+    <color name="text_s">#ff0050bc</color>
+    <color name="statistics_total">#ff1a86f3</color>
+    <color name="statistics_right">#ff6fb41c</color>
+    <color name="statistics_wrong">#fffe519f</color>
+    <color name="explain_detail">#ffa67845</color>
+</resources>

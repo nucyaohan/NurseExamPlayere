@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, NurseExamPlayerActivity!</string>
+    <string name="app_name">NurseExamPlayer</string>
+    <string name="video_name">护考宝典</string>
+    <string name="register_info">"请保存记忆好你的注册码，以方便程序更新及系统维护后再次输入之用"</string>
+    <string name="select_car_radio1">"基础精讲"</string>
+    <string name="select_car_radio2">"串讲点睛"</string>
+    <string name="select_car_radio3">"冲刺特训"</string>
+	<string name="exam_library_desc">"题库说明:
+根据最新护考大纲编写，由多年从事护考辅导的专家和教师把关，确定重点。宝典在手，拿证无忧！"</string>
+	<string name="app_about">
+1、《护考宝典》适用于全国护士资格证考试，可供在校及往届护理专业、助产专业学生备考使用，特别方便护生实习时学习和练习。护考宝典分为试题练习软件和视频辅导软件，作为姊妹篇，互为基础、互为补充，是一个整体，可单独注册使用。\n
+2、《护考宝典》试题练习软件共收录14850道护考试题，练习包5400道题，冲刺包3510道题，押题包5940道题，是最专业的护资考试辅助软件。本软件为视频辅导软件。\n
+3、本软件收录了护资考试辅导三个教学阶段共171个教学视频，通过手机可系统开展护考辅导教学，全部视频分“基础精讲”“串讲点晴”“冲刺特训”三个部分，共6.2G容量。\n
+4、安装完成后，请把软件显示的机器码告诉软件注册咨询（QQ40821069），并购买注册码输入即可使用。相关的视频从网上下载后，放入SD卡指定目录即可播放，如卡容量有限可要什么下载什么，看完的删除即可。\n
+5、为方便护生学习， “护考宝典手机软件”微信公众帐号将向护生分发教学计划、试题和相应视频内容，欢迎加入互动。\n
+6、本软件面向各大医院和学校设立工作站，加盟热线：15536639000  QQ群：284417194试题练习软件下载一：http://url.cn/FKGZsi\n
+下载二：http://url.cn/Go48fT\n
+购买网址：http://url.cn/Hvi5Lo\n
+
+	</string>
+</resources>

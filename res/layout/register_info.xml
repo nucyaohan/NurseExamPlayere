@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_44_dip"
+            android:background="@drawable/top_bg"
+            android:paddingLeft="@dimen/dimen_10_dip"
+            android:paddingRight="@dimen/dimen_10_dip" >
+
+            <Button
+                android:id="@+id/top_back"
+                android:layout_width="@dimen/dimen_70_dip"
+                android:layout_height="@dimen/dimen_32_dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/mock_exam_back"
+                android:paddingLeft="@dimen/dimen_7_dip"
+                android:text="返回"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/dimen_14_dip" />
+
+            <TextView
+                android:id="@+id/top_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="注册事项"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/dimen_18_dip" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top|center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/main_info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/main_exercise_margin_top"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/panel2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/linearLayout1"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:autoLink="all"
+                android:textColorLink="#FF0000"
+                android:text="@string/app_about" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="@dimen/dimen_80_dip"
+                android:layout_height="@dimen/dimen_40_dip"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/pie_check_btn_bg"
+                android:text="用户注册"
+                android:textColor="#ff518218"
+                android:textSize="@dimen/dimen_14_dip" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
